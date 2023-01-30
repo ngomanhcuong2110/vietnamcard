@@ -6,7 +6,7 @@ import numpy as np
   
 # read a image using imread
 img = cv2.imread("D:\\Project\\vietnamese-id-card-ocr\\id.jpg",0)
-print(img+1)
+print(img+4)
 # creating a Histograms Equalization
 # of a image using cv2.equalizeHist()
 equ = cv2.equalizeHist(img+1)
